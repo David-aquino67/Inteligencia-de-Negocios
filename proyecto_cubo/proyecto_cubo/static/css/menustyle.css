@@ -1,0 +1,49 @@
+body {
+  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  width: 450px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  background-color: #005A9C;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.btn-option {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+
+
+.table {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background-color: #e9f5ff;
+  color: #005A9C;
+  text-align: center;
+}
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+h2 {
+  color: #005A9C;
+  font-weight: 600;
+}

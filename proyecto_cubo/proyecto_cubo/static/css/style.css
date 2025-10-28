@@ -1,0 +1,74 @@
+/* Fondo general */
+body {
+  background-color: #f4f6f8;
+  color: #212529;
+  font-family: "Inter", "Segoe UI", Roboto, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(90deg, #005A9C, #007BFF);
+}
+.nav-link {
+  color: #e0e0e0 !important;
+  transition: 0.2s;
+}
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Título */
+.titulo-pagina {
+  color: #005A9C;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Contenedor de tabla */
+.table-container {
+  overflow-x: auto;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+}
+
+/* Estilo de tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.table {
+  background-color: #ffffff;
+}
+
+.table th {
+  background-color: #f0f4f8;
+  color: #005A9C;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table td {
+  text-align: center;
+  padding: 0.6rem;
+  border-color: #e9ecef;
+}
+
+/* Efecto hover */
+.table-hover tbody tr:hover {
+  background-color: #f8fbff;
+  transition: background-color 0.2s ease;
+}
+
+/* Bordes suaves */
+.table-rounded {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Sombras suaves y márgenes */
+.shadow-sm {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
